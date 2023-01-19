@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+<body>
+    <main>
+        <form id="form" class="form">
+            <h2 class="title">Contáctenos</h2>
+            <label for="name">Nombre completo <span>*</span></label>
+            <input name="name" required type="text" id="name">
+            <label for="email">Correo electronico <span>*</span></label>
+            <input name="email" required type="text" id="email">
+            <label for="issue">Asunto<span>*</span></label>
+            <input name="issue" required type="text" id="issue">
+            <label for="messaje">Mensaje <span>*</span></label>
+            <textarea name="messaje" required type="text" id="messaje" cols="30" rows="10"></textarea>
+            <span class="buttons">
+                <button type="submit" class="btn" action>Enviar</button> 
+                <button type="reset" class="btn">Limpiar</button>
+            </span>
+            
+        </form>
+    </main>
+
+    <script src="js/capturarDatos.js"></script>
+    
+</body>
+</html>
